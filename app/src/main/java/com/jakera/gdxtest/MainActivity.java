@@ -14,6 +14,7 @@ import com.jakera.gdxtest.MoveBgDemo.MoveBgTestDemo;
 import com.jakera.gdxtest.Others.AssetManagerDemo;
 import com.jakera.gdxtest.Others.CrashInspectDemo;
 import com.jakera.gdxtest.Others.NetAccessDemo;
+import com.jakera.gdxtest.Others.TouchPadDemo;
 import com.jakera.gdxtest.ParticleEffectDemo.ParticleEffectDemo;
 import com.jakera.gdxtest.ScreenDemo.MainGame;
 import com.jakera.gdxtest.StageDemo.MarioGameStageDemo;
@@ -29,6 +30,6 @@ public class MainActivity extends AndroidApplication {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         AndroidApplicationConfiguration config = new AndroidApplicationConfiguration();
-        initialize(new OrthographicCameraController(), config);
+        initialize(new TouchPadDemo(), config);
     }
 }
