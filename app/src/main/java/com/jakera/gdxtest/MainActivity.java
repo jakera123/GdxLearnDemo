@@ -22,6 +22,7 @@ import com.jakera.gdxtest.TextureAltasDemo.TextureAtasDemo;
 import com.jakera.gdxtest.ViewportDemo.ViewportTestDemo;
 import com.jakera.gdxtest.WidgetDemo.ButtonDomo;
 import com.jakera.gdxtest.WidgetDemo.CheckBoxDemo;
+import com.jakera.gdxtest.WidgetDemo.PopupWindowDemo;
 import com.jakera.gdxtest.WidgetDemo.TextFieldDemo;
 
 public class MainActivity extends AndroidApplication {
@@ -30,6 +31,6 @@ public class MainActivity extends AndroidApplication {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         AndroidApplicationConfiguration config = new AndroidApplicationConfiguration();
-        initialize(new TouchPadDemo(), config);
+        initialize(new PopupWindowDemo(), config);
     }
 }
